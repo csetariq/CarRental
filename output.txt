@@ -1,0 +1,99 @@
+C:\>java CarRentalTest
+
+
+                Welcome to use CarRental calculator
+
+
+Enter customer name 1: John Smith
+
+Enter the number of days: 5
+
+Enter yes or no to indicate a special offer: yes
+
+        The rental of car hire from John Smith is $112.50
+--------------------------------------------------------------------
+
+
+Enter customer name 2: Reni Birdich
+
+Enter the number of days: 5
+
+Enter yes or no to indicate a special offer: no
+
+        The rental of car hire from Reni Birdich is $125.00
+--------------------------------------------------------------------
+
+
+Enter customer name 3: David Newton
+
+Enter the number of days: 3
+
+Enter yes or no to indicate a special offer: no
+
+        The rental of car hire from David Newton is $75.00
+--------------------------------------------------------------------
+
+
+Enter customer name 4: Paul Wilson
+
+Enter the number of days: 7
+
+Enter yes or no to indicate a special offer: no
+
+        The rental of car hire from Paul Wilson is $157.50
+--------------------------------------------------------------------
+
+
+Enter customer name 5: Kate Donalson
+
+Enter the number of days: 15
+
+Enter yes or no to indicate a special offer: no
+
+        The rental of car hire from Kate Donalson is $315.00
+--------------------------------------------------------------------
+
+
+Enter customer name 6: Terry Cornes
+
+Enter the number of days: 10
+
+Enter yes or no to indicate a special offer: YES
+
+        The rental of car hire from Terry Cornes is $202.50
+--------------------------------------------------------------------
+
+
+Enter customer name 7: Josh Pearson
+
+Enter the number of days: 10
+
+Enter yes or no to indicate a special offer: yES
+
+        The rental of car hire from Josh Pearson is $202.50
+--------------------------------------------------------------------
+
+
+                Summary of Car Rentals
+
+===============================================================
+Name                 Days            SpecialOffer        Charge
+---------------------------------------------------------------
+John Smith           5               Yes                $112.50
+Reni Birdich         5               No                 $125.00
+David Newton         3               No                  $75.00
+Paul Wilson          7               No                 $157.50
+Kate Donalson        15              No                 $315.00
+Terry Cornes         10              Yes                $202.50
+Josh Pearson         10              Yes                $202.50
+
+---------------------------------------------------------------
+
+The customer spending most rental is Kate Donalson $315.00
+
+The customer spending least rental is David Newton $75.00
+
+The rental days < 7   : ***
+The rental days >= 7  : ****
+
+C:\Users\TARIQ\rowdy_job>

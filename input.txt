@@ -1,0 +1,21 @@
+John Smith
+5
+Yes
+Reni Birdich
+5
+No
+David Newton
+3
+No
+Paul Wilson
+7
+No
+Kate Donalson
+15
+No
+Terry Cornes
+10
+Yes
+Josh Pearson
+10
+Yes
