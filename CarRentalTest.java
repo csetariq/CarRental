@@ -16,7 +16,7 @@ public class CarRentalTest {
         *   Each rental is separated by RECORD_SEP
         *   Each field is separated by FIELD_SEP
         */
-        StringBuilder allRentals = new StringBuilder();
+        String currentRental = new String();
         
         // To track the maximum and minimum rental
         double minCharge = Double.MAX_VALUE;
@@ -75,14 +75,14 @@ public class CarRentalTest {
             charge = rental.getCharge();
             
             // appending the current rental in defined format
-            allRentals.append(name);
-            allRentals.append(FIELD_SEP);
-            allRentals.append(days);
-            allRentals.append(FIELD_SEP);
-            allRentals.append(offerApplicable);
-            allRentals.append(FIELD_SEP);
-            allRentals.append(String.format("%.2f",charge));
-            allRentals.append(RECORD_SEP);
+            allRentals += name;
+            allRentals += FIELD_SEP;
+            allRentals += days;
+            allRentals += FIELD_SEP;
+            allRentals += offerApplicable;
+            allRentals += FIELD_SEP;
+            allRentals += String.format("%.2f",charge);
+            allRentals += RECORD_SEP;
             
             // Track the maximum and minimum charge rentals
             if (rental.getCharge() > maxCharge) {
